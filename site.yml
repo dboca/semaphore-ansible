@@ -1,7 +1,4 @@
 ---
 - hosts: Ubuntu Servers
-  become: true
-  tasks:
-    - name: Print OS info
-      ansible.builtin.package:
-        name: apache2
+  roles: 
+  - ping
