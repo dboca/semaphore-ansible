@@ -4,4 +4,4 @@
   gather_facts: false
   tasks:
     - name: Test connectivity
-      ansible.builtin.ping:
+      ansible.builtin.ping
