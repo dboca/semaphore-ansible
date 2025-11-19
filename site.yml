@@ -1,4 +1,4 @@
 ---
-- hosts: Ubuntu Servers
+- hosts: ubuntu_Servers
   roles: 
   - ping
