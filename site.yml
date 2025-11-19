@@ -1,4 +1,7 @@
 ---
-- hosts: ubuntu_Servers
-  roles: 
-  - ping
+- name: Ping all hosts
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Test connectivity
+      ansible.builtin.ping:
